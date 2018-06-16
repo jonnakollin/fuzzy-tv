@@ -28,7 +28,7 @@ class Favourites extends Component {
                     translucent={false}
                     barStyle="default"
                 />
-                {this.state.stores < 1 &&
+                {this.state.favourites < 1 &&
                     <Image
                         style={styles.image}
                         source={require('./../images/calendar-icon.png')}
